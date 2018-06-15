@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<title>AZA Engineering</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css"> <!-- Added AG --> 
+</head>
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+/* below carried over to style.css separate CSS */    
+/* body,h1,h2,h3,h4,h5,h6,{font-family: "Montserrat", sans-serif} */
+/*.w3-row-padding img {margin-bottom: 15px} */
+/*.bgimg {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('blueprints-894779_1920.jpg');
+    min-height: 100%; 
+} */
+</style>
+<body>
+
+<!-- Sidebar with image -->
+ <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="40%"> <!-- <nav class="w3-sidebar w3-hide-medium w3-hide-small" style="width:40%"> <<<<<<<<<<<<<< was this before  -->
+  <div class="bgimg"></div>
+</nav>
+
+
+<!-- Hidden Sidebar (reveals when clicked on menu icon)-->
+<nav class="w3-sidebar w3-black w3-animate-right w3-xxlarge" style="display:none;padding-top:150px;right:0;z-index:2" id="mySidebar">
+  <a href="javascript:void(0)" onclick="closeNav()" class="w3-button w3-black w3-xxxlarge w3-display-topright" style="padding:0 12px;">
+    <i class="fa fa-remove"></i>
+  </a>
+  <div class="w3-bar-block w3-center">
+   <!-- <a href="#" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Work</a> -->
+    <a href="#work" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Work</a>
+    <a href="#about" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">About</a>
+    <a href="#contact" class="w3-bar-item w3-button w3-text-grey w3-hover-black" onclick="closeNav()">Contact</a>
+  </div>
+</nav>
+
+<!-- Page Content -->
+<div class="w3-main w3-padding-large" style="margin-left:40%">
+
+  <!-- Menu icon to open sidebar -->
+  <span class="w3-button w3-top w3-white w3-xxlarge w3-text-grey w3-hover-text-black" style="width:auto;right:0;" onclick="openNav()"><i class="fa fa-bars"></i></span>
+
+  <!-- Header -->
+  <header class="w3-container w3-center" style="padding:100px 16px" id="home">
+    <img src="img/LogoPng.png" style="width:40%">
+    <h1 class="w3-jumbo"><b>Professional MEP Engineering & Fire Protection Services</b></h1> <!-- class was class="w3-jumbo" and <h1 class="w3-jumbo" style="font-size: 20px; !important;"> -->
+    <h2>Commercial, Residential, Restaurants & Other </h2>
+    <img src="img/blueprints-894779_1920.jpg" class="w3-image w3-hide-large w3-hide-small w3-round" style="display:block;width:60%;margin:auto;">
+    <img src="img/blueprints-894779_1920.jpg" class="w3-image w3-hide-large w3-hide-medium w3-round" width="1000" height="1333">
+   <!-- <button class="w3-button w3-light-grey w3-padding-large w3-margin-top">
+      <i class="fa fa-download"></i> Download Brochure
+    </button> -->
+  </header>
+
+  <!-- Work Section -->
+  <div class="w3-padding-2 w3-content" id="work"> <!-- the 2 padding adjusts the space between Work and AZA Engineering, Prof MEP string -->
+    <h2 class="w3-text-grey">Work</h2>
+    <hr class="w3-opacity">
+
+    <!-- Grid for photos -->
+    <div class="w3-row-padding" style="margin:0 -16px">
+      <div class="w3-half">
+        <img src="img/Conference room looking out to city.jpg" style="width:100%">
+        <img src="img/daan-stevens-549933-unsplash2.jpg" style="width:100%; height:289px;">
+      </div>
+
+      <div class="w3-half">
+        <img src="img/breather-176228-unsplash.jpg" style="width:100%">
+        <img src="img/Abstract Perspective View Of Chicago City Skyscrapers_.jpg" style="width:100%">
+      </div>
+
+    <!-- End photo grid -->
+    </div>
+  <!-- End Portfolio Section -->
+  </div>
+
+  <!-- About Section -->
+  <div class="w3-content w3-justify w3-text-grey w3-padding-32" id="about">
+    <h2>About</h2>
+    <hr class="w3-opacity">
+    <p>AZA Engineering is a NY and NJ licensed consulting Professional Engineering firm with 12+ years of proven work experience. 
+      We're small yet nimble which allows us to have control of the quality of work we produce. With well seassoned hands on deck 
+      work on large scale projects, we have successfully executed and delivered the best design solutions for our clients.  
+      Our mission is to never make our client want to look at another engineering contractor because of our excellence of work. 
+      We stand out by delivering accurate and reliable work that is done right the first time. We solve problems and think 10 steps ahead.
+    </p>
+      </div>
+      <!-- End About Section -->
+
+  <!-- Contact Section -->
+  <div class="w3-padding-32 w3-content w3-text-grey" id="contact" style="margin-bottom:64px">
+    <h2>Contact Us</h2>
+    <hr class="w3-opacity">
+
+    <div class="w3-section">
+      <p><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> New York, New Jersey<br> 230 West 38th Street, 14th floor<br>New York, NY 10018</p>
+        <p><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> 212.517.1364</p>
+      <p><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right"> </i> info@azaeng.com</p>
+    </div>
+    
+     <!-- Google Map -->
+    <div id="googleMap" class="w3-greyscale-max" style="width:100%;height:300px;margin:36px 0;"></div>
+   
+    <p>Contact Us</p>
+    <form action="/action_page.php" target="_blank">
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Email" required name="Email"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Subject" required name="Subject"></p>
+      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message" required name="Message"></p>
+      <p>
+        <button class="w3-button w3-light-grey w3-padding-large" type="submit" style="float:right; color:blue;">
+          <i class="fa fa-paper-plane"></i> Submit
+        </button>
+      </p>
+    </form>
+  <!-- End Contact Section -->
+  </div>  
+  
+  <!-- Footer -->
+  <footer class="w3-container w3-padding-64 w3-light-grey w3-center w3-opacity w3-xlarge" style="margin:-24px">
+    <i class="fa fa-linkedin w3-hover-opacity" style= "padding-right: 10px"></i>
+    <i class="fa fa-medium w3-hover-opacity"></i>
+        <p class="w3-medium">AZA Engineering © 2018. All Rights Reserved.<a href="https://www.w3schools.com/w3css/default.asp" target="_blank" class="w3-hover-text-green"></a></p>
+  <!-- End footer -->
+  </footer>
+  
+<!-- END PAGE CONTENT -->
+</div>
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(40.753039, -73.9977449);
+  var mapOptions= {
+    center:myCenter,
+    zoom:14.5, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+
+// Open and close sidebar
+function openNav() {
+    document.getElementById("mySidebar").style.width = "60%";
+    document.getElementById("mySidebar").style.display = "block";
+}
+
+function closeNav() {
+    document.getElementById("mySidebar").style.display = "none";
+}
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>

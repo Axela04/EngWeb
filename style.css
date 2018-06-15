@@ -1,0 +1,52 @@
+body {
+font-family: "Montserrat", sans-serif;
+} 
+
+h1 {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20vm;
+}
+
+h2 {
+    font-family: "Montserrat", sans-serif;
+}
+
+h3 { 
+    font-family: "Montserrat", sans-serif;
+}
+
+h4 { 
+    font-family: "Montserrat", sans-serif;
+}
+
+h5 { 
+    font-family: "Montserrat", sans-serif;
+}
+
+h6 { 
+    font-family: "Montserrat", sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+.w3-row-padding img {
+    margin-bottom: 12px
+}
+
+/* Sidebar main page - image */ 
+.bgimg {
+    background-image: url('img/blueprints-894779_1920.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+}
+
+
+/* Sidebar with image on main page */
+.w3-sidebar.w3-hide-medium.w3-hide-small {
+    width: 40%;
+}
+    
